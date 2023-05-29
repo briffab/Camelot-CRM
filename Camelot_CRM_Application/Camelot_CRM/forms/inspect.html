@@ -1,0 +1,151 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<HTML>
+	<HEAD>
+		<TITLE>Camelot Properties CRM</TITLE></HEAD>
+	<BODY onunload="parent.location.reload(true);">
+		<base target="_self">
+		<link rel="stylesheet" href="../stylesheets/camelot.css" type="text/css">
+			<style> all.clsMenuItemNS, .clsMenuItemIE{text-decoration: none; font: bold 12px Arial; color: #dae7ca; cursor: hand; z-index:100}
+	#MainTable A:hover {color: #ffffff;}
+	</style>
+			<script language="JavaScript">
+
+
+var keepstatic=1 //specify whether menu should stay static (works only in IE4+)
+var menucolor="#56a80f" //specify menu color
+var submenuwidth=150 //specify sub menus' width
+
+function displayMessage(mymsg){
+	alert(myMsg);
+	}
+
+			</script>
+			<base target="_self">
+			<form name="Form2" method="post" action="newinspection.aspx" id="Form2">
+				<table width="96%" align="center">
+					<tr>
+						<td class="logon" width="30%" height="14"><span id="lblTitle">42-44 De Beauvoir Crescent - Bankstock</span></td>
+						<td class="logon" width="70%" height="14"><span id="lblMessage" style="FONT-SIZE:larger;COLOR:red;FONT-FAMILY:Arial"></span></td>
+					</tr>
+				</table>
+				<hr width="96%">
+				<table width="96%" align="center" border="0">
+					<tr vAlign="top">
+						<td width="50%" height="100%">
+							<table width="100%">
+								<tr>
+									<td class="logon" width="147" height="14"><span id="lblPropInsp">Property Inspector</span></td>
+									<td class="data" width="60%" height="14"><select name="cmbPropInsp" id="cmbPropInsp" class="logon" style="WIDTH:184px">
+											<option selected value=""></option>
+											<option value="Allan Marshall" selected>Allan Marshall</option>
+											<option value="Anton Myer">Anton Myer</option>
+											<option value="Ayeesha Bakarr">Ayeesha Bakarr</option>
+											<option value="Chris Okpa">Chris Okpa</option>
+											<option value="Dorota Miklasinska">Dorota Miklasinska</option>
+											<option value="Derrick Willer">Derrick Willer</option>
+											<option value="Erwin Janssen">Erwin Janssen</option>
+											<option value="Ian Fenton">Ian Fenton</option>
+											<option value="Ferdy Triest">Ferdy Triest</option>
+											<option value="Fernanda Prezotto">Fernanda Prezotto</option>
+											<option value="Fernanda Prezotto">Fernanda Prezotto</option>
+											<option value="Joost Gestel">Joost Gestel</option>
+											<option value="John Mills">John Mills</option>
+											<option value="Merijn Driessen">Merijn Driessen</option>
+											<option value="Magdalena Kozub">Magdalena Kozub</option>
+											<option value="Nora Amougay">Nora Amougay</option>
+											<option value="Richard Mills">Richard Mills</option>
+											<option value="Robert Wheeldon">Robert Wheeldon</option>
+											<option value="Simon Reesink">Simon Reesink</option>
+											<option value="Terrence Smit">Terrence Smit</option>
+											<option value="Terri Dolan">Terri Dolan</option>
+											<option value="Ferdy Triest">Ferdy Triest</option>
+											<option value="Vanessa Cohen">Vanessa Cohen</option>
+											<option value="Victoria Olech">Victoria Olech</option>
+											<option value="vicky Olech">vicky Olech</option>
+											<option value="Robert Wheeldon">Robert Wheeldon</option>
+										</select></td>
+								</tr>
+							</table>
+						</td>
+						<td width="50%" height="100%">
+							<table width="100%">
+								<tr>
+									<td class="logon" width="147" height="14"><span id="Label2">Inspection Date</span></td>
+									<td class="data" width="60%" height="14"><input name="txtDate" type="text" id="txtDate" disabled class="logon" style="WIDTH:184px"></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+				<table cellSpacing="0" cellPadding="0" width="96%" align="center">
+					<tr>
+						<td width="100%">
+							<div style="OVERFLOW: auto; WIDTH: 100%; HEIGHT: 152px"><table cellspacing="0" cellpadding="5" align="center" border="0" id="dgMets" style="WIDTH:100%;COLOR:#56a80f;FONT-FAMILY:arial;BORDER-COLLAPSE:collapse">
+									<tr align="left" style="FONT-WEIGHT:bold;COLOR:#dae7ca;BACKGROUND-COLOR:#56a80f">
+										<td>Meter Type</td>
+										<td>Serial Number</td>
+										<td>Rate Desc</td>
+										<td>Last Reading</td>
+										<td>Reading</td>
+									</tr>
+									<tr>
+										<td valign="top">GAS</td>
+										<td valign="top">00761343</td>
+										<td valign="top">Gas Rate 1</td>
+										<td valign="top">(02/10/2006) 0</td>
+										<td>
+											<input name="dgMets:_ctl2:txtRead" type="text" id="dgMets__ctl2_txtRead" style="WIDTH:200px">
+										</td>
+									</tr>
+									<tr>
+										<td valign="top">ELECTRIC</td>
+										<td valign="top">F99A01865</td>
+										<td valign="top">Electrical Rate 1</td>
+										<td valign="top">(02/10/2006) 5500</td>
+										<td>
+											<input name="dgMets:_ctl3:txtRead" type="text" id="dgMets__ctl3_txtRead" style="WIDTH:200px">
+										</td>
+									</tr>
+									<tr>
+										<td valign="top">ELECTRIC</td>
+										<td valign="top">F99A01865</td>
+										<td valign="top">Electrical Rate 2</td>
+										<td valign="top">(02/10/2006) 999</td>
+										<td>
+											<input name="dgMets:_ctl4:txtRead" type="text" id="dgMets__ctl4_txtRead" style="WIDTH:200px">
+										</td>
+									</tr>
+								</table>
+							</div>
+						</td>
+					</tr>
+				</table>
+				<hr width="96%">
+				<table width="96%" align="center">
+					<tr vAlign="top">
+						<td class="logon" width="40%" height="21"><span id="Label9">Inspection Summary</span></td>
+					</tr>
+					<tr vAlign="top">
+						<td class="data" width="40%" height="21"><textarea name="txtIR" id="txtIR" disabled style="WIDTH:100%;HEIGHT:72px"></textarea></td>
+						<td vAlign="middle" align="right" width="10%"><input type="submit" name="btnUpdate" value="<<" id="btnUpdate" class="button">&nbsp;
+							<input type="submit" name="btnCancel" value=">>" id="btnCancel" class="button"></td>
+						<td class="data" width="40%" height="21"><textarea name="txtIR" id="txtIR" disabled style="WIDTH:100%;HEIGHT:72px"></textarea></td>
+					</tr>
+				</table>
+				<table width="96%" align="center">
+					<tr vAlign="top">
+						<td class="data" width="100%" height="21"><textarea name="txtIR" id="txtIR" disabled style="WIDTH:100%;HEIGHT:72px"></textarea></td>
+					</tr>
+				</table>
+				<hr width="96%">
+				<table height="30" width="96%" align="center">
+					<tr>
+						<td vAlign="middle" align="left" width="50%"><input type="submit" name="btnUpdate" value="Goto Incidents" id="btnUpdate" class="button">&nbsp;
+							<input type="submit" name="btnCancel" value="Add Note" id="btnCancel" class="button"></td>
+						<td vAlign="middle" align="right" width="100%"><input type="submit" name="btnUpdate" value="Update" id="btnUpdate" class="button">&nbsp;
+							<input type="submit" name="btnCancel" value="Cancel" id="btnCancel" class="button"></td>
+					</tr>
+				</table>
+			</form>
+	</BODY>
+</HTML>

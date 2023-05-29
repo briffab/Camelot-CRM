@@ -1,0 +1,225 @@
+body
+{
+	background-color: #dae7ca;
+}
+.Logon
+{
+	font-weight: bold;
+	color: #56a80f;
+	font-family: Arial, 'Book Antiqua';
+}
+A
+{
+	color: #56a80f;
+}
+
+INPUT
+{
+	border-top-style: none;
+	font-family: Arial;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+}
+SELECT
+{
+	border-right: #56a80f thin solid;
+	border-top: #56a80f thin solid;
+	font-weight: normal;
+	border-left: #56a80f thin solid;
+	border-bottom: #56a80f thin solid;
+	font-family: Arial;
+}
+
+BUTTON
+{
+	border-right: thin ridge;
+	border-top: thin ridge;
+	border-left: thin ridge;
+	border-bottom: thin ridge;
+}
+P
+{
+	font-weight: bold;
+	color: #56a80f;
+	font-family: Arial;
+}
+.heading
+{
+	font-weight: bold;
+	color: #56a80f;
+	font-family: Arial;
+	text-decoration: underline;
+}
+.list
+{
+	color: #56a80f;
+	font-family: Arial;
+}
+
+
+.data
+{
+	color: #56a80f;
+	font-family: Arial, 'Book Antiqua';
+}
+
+IMG.main_photo
+{
+	border-right: #56a80f thin solid;
+	border-top: #56a80f thin solid;
+	border-left: #56a80f thin solid;
+	border-bottom: #56a80f thin solid;
+}
+
+INPUT.button
+{
+	font-weight: bold;
+	width: 100px;
+	color: #dae7ca;
+	font-family: Arial;
+	height: 20px;
+	background-color: #56a80f;
+}
+
+INPUT.button1
+{
+	font-weight: bold;
+	width: 100px;
+	color: #C0C0C0;
+	font-family: Arial;
+	height: 20px;
+	background-color: #56a80f;
+}
+INPUT.button2
+{
+	font-weight: bold;
+	color: #dae7ca;
+	font-family: Arial;
+	height: 20px;
+	background-color: #56a80f;
+}
+
+INPUT.button3
+{
+	color: #56a80f;
+	font-family: Arial;
+	height: 20px;
+	background-color: #dae7ca;
+	text-align: left;
+}
+.grid
+{
+	border-right: #56a80f thin;
+	border-top: #56a80f thin;
+	font-weight: bold;
+	border-left: #56a80f thin;
+	color: #56a80f;
+	border-bottom: #56a80f thin solid;
+	font-family: Arial;
+}
+
+.outerframe
+{
+	position: relative;		/* to capture the absolutely positioned col heads */
+	padding-top: 25px;		/* space for the col heads */
+
+	/* arbitrary position of the structure on the page */
+	
+	/* optional: width matches innerframe */
+	width: 100%;
+
+	/* arbitrary styling */
+	background-color: #dae7ca;
+}
+
+/* this enables the table to scroll without scrolling the page */
+.innerframe
+{
+	position: static;	/* 'static' is the default position, but I've defined it explicitly to expose the logic: if it were relative or absolute this element would contain the col heads instead of releasing them to outerframe */
+
+	overflow:auto;
+	height: 275px;		/* height is required, its value arbitrary */
+	width: 100%;		/* arbitrary, wide enough to contain the table */
+	padding-left: 1px;	/* Mozilla hides the table's left border unless this is here */
+}
+
+.innerframe table
+{
+	position: static;	/* 'static' is the default position, but I've defined it explicitly to expose the logic: if it were relative or absolute this element would contain the col heads instead of releasing them to outerframe */
+
+	/* optional */
+	border-collapse: collapse;
+	border-right: #56a80f thin;
+	border-top: #56a80f thin;
+	border-left: #56a80f thin;
+	color: #56a80f;
+	border-bottom: #56a80f thin solid;
+	font-family: Arial;
+}
+
+.innerframe th
+{
+	width:229px;		/* col heads must match with data columns; they don't have to all be the same width, but they must be fixed */
+	border: 1px solid black;	/* optional */
+}
+
+.innerframe td
+{
+	border-right: black 1px;
+	border-top: black 1px;
+	border-left: black 1px;
+	width: 229px;
+	border-bottom: #56a80f thin solid;
+}
+
+/* position the row of column heads above the table */
+.innerframe tr.heads
+{
+	
+	font-weight: bold;
+	position: absolute;		/* this throws the col heads out of the table and out of the innerframe, where they'll be captured inside the innerframe */
+	top: 0px;
+	left: 1px;	/* shift col heads right to match the innerframe's padding-left above */
+}
+TEXTAREA
+{
+	color: #56a80f;
+	font-family: Arial;
+}
+TEXTAREA.fac
+{
+	color: #56a80f;
+	border-top-style: none;
+	font-family: Arial;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+}
+SELECT.fac
+{
+	color: #56a80f;
+	border-top-style: none;
+	font-family: Arial;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+
+}
+asp:listbox
+{
+	width: 96%;
+}
+asp:dropdownlist
+{
+	width:184px
+}
+.blank_insp
+{
+	color: black;
+	font-family: arial;
+}
+.Photo
+{
+	cursor: hand;
+}

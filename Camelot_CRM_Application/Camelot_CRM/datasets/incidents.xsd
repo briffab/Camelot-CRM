@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="incidents" targetNamespace="http://tempuri.org/incidents.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/incidents.xsd" xmlns:mstns="http://tempuri.org/incidents.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="incidents" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="incdetails">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="inc_id" type="xs:string" minOccurs="0" />
+							<xs:element name="urgency" type="xs:string" minOccurs="0" />
+							<xs:element name="resdate" type="xs:string" minOccurs="0" />
+							<xs:element name="object_name" type="xs:string" minOccurs="0" />
+							<xs:element name="property_id" type="xs:string" minOccurs="0" />
+							<xs:element name="cdesc" type="xs:string" />
+							<xs:element name="solution" type="xs:string" minOccurs="0" />
+							<xs:element name="ind_date" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

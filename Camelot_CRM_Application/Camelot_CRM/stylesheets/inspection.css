@@ -1,0 +1,68 @@
+.blank_insp
+{
+	font-size: 11pt;
+	color: black;
+	font-family: arial;
+}
+BODY
+{
+	padding-right: 0px;
+	padding-left: 0px;
+	font-size: 10pt;
+	page-break-before: auto;
+	padding-bottom: 0px;
+	margin: 0px;
+	page-break-after: auto;
+	width: 11cm;
+	color: black;
+	padding-top: 0px;
+	font-family: Arial;
+}
+.meter_head
+{
+	font-size: 11pt;
+	text-transform: capitalize;
+	color: black;
+	font-family: arial;
+	border-bottom: #000000 1pt solid;
+	background-color: white;
+}
+
+.rate_head
+{
+	border-top: #000000 1pt double;
+	font-size: 11pt;
+	text-transform: capitalize;
+	color: black;
+	border-bottom: #000000 1pt solid;
+	font-family: arial;
+	background-color: white;
+}
+.rate
+{
+	border-right: #000000 1px solid;
+	border-top: #000000 1px solid;
+	font-size: 10pt;
+	text-transform: capitalize;
+	border-left: #000000 1px solid;
+	color: black;
+	border-bottom: #000000 1px solid;
+	font-family: arial;
+	background-color: white;
+}
+.page_break
+{
+	page-break-before:always;
+}
+.addr_table
+{
+	border-right: black 1px solid;
+	border-top: black 1px solid;
+	border-left: black 1px solid;
+	border-bottom: black 1px solid;
+}
+hr
+{
+	border-top: black 2pt solid;
+}
+

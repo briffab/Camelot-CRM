@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="insp_rep" targetNamespace="http://tempuri.org/insp_rep.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/insp_rep.xsd" xmlns:mstns="http://tempuri.org/insp_rep.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="insp_rep" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Address">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Firstname" type="xs:string" minOccurs="0" />
+							<xs:element name="Company_name" type="xs:string" minOccurs="0" />
+							<xs:element name="Address1" type="xs:string" minOccurs="0" />
+							<xs:element name="Address2" type="xs:string" minOccurs="0" />
+							<xs:element name="Address3" type="xs:string" minOccurs="0" />
+							<xs:element name="Address4" type="xs:string" minOccurs="0" />
+							<xs:element name="Address5" type="xs:string" minOccurs="0" />
+							<xs:element name="City" type="xs:string" minOccurs="0" />
+							<xs:element name="Postalcode" type="xs:string" minOccurs="0" />
+							<xs:element name="Lastname" type="xs:string" minOccurs="0" />
+							<xs:element name="Inspector" type="xs:string" minOccurs="0" />
+							<xs:element name="Property" type="xs:string" minOccurs="0" />
+							<xs:element name="insp_date" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

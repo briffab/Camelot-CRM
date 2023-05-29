@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="props_by_status" targetNamespace="http://tempuri.org/props_by_status.xsd" elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/props_by_status.xsd" xmlns:mstns="http://tempuri.org/props_by_status.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="props_by_status" msdata:IsDataSet="true">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element name="properties">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="object_name" type="xs:string" minOccurs="0" />
+                            <xs:element name="housename" type="xs:string" minOccurs="0" />
+                            <xs:element name="housenumber" type="xs:string" minOccurs="0" />
+                            <xs:element name="street" type="xs:string" minOccurs="0" />
+                            <xs:element name="address4" type="xs:string" minOccurs="0" />
+                            <xs:element name="city" type="xs:string" minOccurs="0" />
+                            <xs:element name="postalcode" type="xs:string" minOccurs="0" />
+                            <xs:element name="acman" type="xs:string" minOccurs="0" />
+                            <xs:element name="max_nr_residents" type="xs:string" minOccurs="0" />
+                            <xs:element name="company_name" type="xs:string" minOccurs="0" />
+                            <xs:element name="status_description" type="xs:string" minOccurs="0" />
+                            <xs:element name="occup" type="xs:string" minOccurs="0" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
